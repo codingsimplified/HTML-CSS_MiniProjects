@@ -1,0 +1,17 @@
+/* Text is inside the <p> tage which is in a div
+below we are centering the div so that the text will be in center */
+
+div{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+p{
+    font-size: 200%;
+    text-transform: uppercase;
+    color: aqua;
+    font-weight: bold;
+    text-shadow: 5px 0px 0px black;
+}
